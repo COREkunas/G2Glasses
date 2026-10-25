@@ -1,0 +1,5 @@
+9cb9d3f093c379bea22b8433fd6f029fd794372e26e04fc40a4369519e6d2874  firmware/halliday-g2-1.1.1-official-ota.zip
+f5a48c0e947699041422636d911ac9e79258563fc5aed394b0196b6b79e5234f  g2_native_probe/g2_probe.o
+918ff848b72dc604fd191ec25e885b77bd3269b0df54bba5cf0f8d4f8184a67c  native/mindylab/mindylab.o
+9511f124148a87e2d1a9ea5b878acc9c45f16f54ceef16aaded6d86bc18d02f3  native/navigation/mindylab.o
+4f5a7d9402af9c07378c7e73dc9517eeb2bcf5fcbda1e3672f608a37a6a61528  releases/G2-Display-Lab-0.18-public.apk

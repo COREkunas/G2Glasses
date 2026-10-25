@@ -1,0 +1,25 @@
+# Runtime data is private. Keep this allowlisted public tree separate from research.
+__pycache__/
+*.pyc
+.venv/
+downloads/
+backups/
+private/
+analysis/
+output/
+tmp/
+.env
+.env.*
+*.log
+*.jks
+*.keystore
+*.key
+*.pem
+*.idsig
+**/build/
+**/build-temp/
+**/build.json
+**/elf-inspection.txt
+**/tests/fixtures/
+# Named binary releases are reviewed explicitly, never copied from a backup.
+g2_companion/G2-Display-Lab.apk

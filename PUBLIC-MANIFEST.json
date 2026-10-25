@@ -1,0 +1,450 @@
+{
+  "date": "2026-10-25",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 65,
+      "sha256": "9986a24d061a6999d1b0ac99361cc1ad45f1e0f967d019d139ce4e0aa332680d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 407,
+      "sha256": "fdc0844e3718823ce71b6953fccfb0ca99ef95b807cef4e217c345cfc4c4ae4d"
+    },
+    {
+      "path": "docs/ANDROID.md",
+      "bytes": 5517,
+      "sha256": "401a8d414a4aa370eac8bd95cc1228903ab001f6750582ccc04ff784651fad5f"
+    },
+    {
+      "path": "docs/DOWNLOADER.md",
+      "bytes": 2134,
+      "sha256": "a7e0de9b80783b5106ee462ae70df9c7d6ebba75d5593b8abacfa4f2df83dcea"
+    },
+    {
+      "path": "docs/NATIVE-APPS.md",
+      "bytes": 5146,
+      "sha256": "7206f8c9b873e6cf9de498c1ed76810d17c588f64b86bf410fd66a2d073ac400"
+    },
+    {
+      "path": "docs/PRIVACY.md",
+      "bytes": 2178,
+      "sha256": "a37f7e8389af6343f6aa9f3b24354955688ed13ee8d2ba07714033e4bdcb2690"
+    },
+    {
+      "path": "docs/RESEARCH.md",
+      "bytes": 6302,
+      "sha256": "028b2482c900810078c89c4cbb2e1feb9722cde722658f6ea8f8c23dea5be141"
+    },
+    {
+      "path": "docs/STORY.md",
+      "bytes": 4122,
+      "sha256": "cb97d57b9c304ef2c6c98c06cd4e564601150e69ea7de0a0b95717563830a135"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2231,
+      "sha256": "5adfca03778552b377bc8485d3bdc54089d7fe1409a771e09071535eb58980a2"
+    },
+    {
+      "path": "firmware/halliday-g2-1.1.1-official-ota.zip",
+      "bytes": 7204026,
+      "sha256": "9cb9d3f093c379bea22b8433fd6f029fd794372e26e04fc40a4369519e6d2874"
+    },
+    {
+      "path": "firmware/manifest.json",
+      "bytes": 1740,
+      "sha256": "375bb7d581f549af539ca2f8462734037d53d38e1abff6f1c0cbd38f526368c0"
+    },
+    {
+      "path": "firmware/README.md",
+      "bytes": 1936,
+      "sha256": "10e7b24ce1bcbee9ee3d68658d9af53a2cd9b5db7af15e67b53809f8efe2f20b"
+    },
+    {
+      "path": "g2_companion/AndroidManifest.xml",
+      "bytes": 2367,
+      "sha256": "824fa368f6f48fc8036cca009582774be6a04ee60ce4462219cc97304a2907eb"
+    },
+    {
+      "path": "g2_companion/build.py",
+      "bytes": 4556,
+      "sha256": "a83d04322314b355a5791f06d029a54827c012e2e8a3b70f8175d4fb4bd0d277"
+    },
+    {
+      "path": "g2_companion/generate_fixtures.py",
+      "bytes": 998,
+      "sha256": "2ec77ea82f0800d57bfbf33f501ae338730facf40ce82924f9b2bcc2f295d72a"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/AccountClient.java",
+      "bytes": 9688,
+      "sha256": "92a022c8bfbbe64d773707d0b677e9ecadce3cc8d80f1effba01deaac8f1f3ad"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/BackupFiles.java",
+      "bytes": 3625,
+      "sha256": "ec07eab8cea2d5a105484600250095baf69307a682222856def8eda5f69d5bfe"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/ConsoleCheck.java",
+      "bytes": 1765,
+      "sha256": "4a4416d593a13b0ae35b5f0896ca04178a9f53a886af004e3b2bfdf191685ded"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/DiagnosticReply.java",
+      "bytes": 2045,
+      "sha256": "3b19682416d7ae89fdd9cfab7abcc16381635f1b40f060646f5d64e8b4273f13"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/DisposableFtpTest.java",
+      "bytes": 13511,
+      "sha256": "8544ee9be26ba9bce0b25d7e2983afcbccd6dd5aaba11f3a0ff5206ba522cf3e"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/FtpDiagnostic.java",
+      "bytes": 40476,
+      "sha256": "ce4f5111e0b132c1f2f8cf3fe6e50384c40ddeb050171f9f91b4fdfda1c67f73"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/GattCallbackRouter.java",
+      "bytes": 1523,
+      "sha256": "549a0441eb9ace3e3564d3574575c5aa533fb2a2a29b611af8a576ec037d2986"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/MainActivity.java",
+      "bytes": 49430,
+      "sha256": "f51d3a3e56773dac9f9340d4d044bd702f6d409c76dbbfa475c91d9534a1f22b"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NativeAppFtp.java",
+      "bytes": 7587,
+      "sha256": "3a34ef1f6ca06b1ab7a46f022c498455c488303898ddd525b19a9e908ac751a1"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NativeAppRecord.java",
+      "bytes": 3739,
+      "sha256": "2bcfe75cbb008c242d36b8376ca2da7bc4b8a93e930c7d3e49f4c584e536a142"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NativeNavRecord.java",
+      "bytes": 2275,
+      "sha256": "8f30be39aa6c8f429cdcc29510ad10b0b2095c1549dd792d00c917c8c0c02ed8"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NavBleClient.java",
+      "bytes": 6770,
+      "sha256": "f446e191a27fb3e472e509417ee0c8c106cdc14a4d917cfeacd8016a57969916"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NavGuidance.java",
+      "bytes": 5237,
+      "sha256": "b1375c14d624fcb6b6661a614ef9cab2a49f3046e6a64eaa5e6d124c08d572e7"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NavNotificationListener.java",
+      "bytes": 3693,
+      "sha256": "f8162ac059f58ccd98febc67176a1369246f278bcb3373f15fe474a0b542fc8a"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NavRelayService.java",
+      "bytes": 14908,
+      "sha256": "597cfe773c8072c94a2a66d37b6a6681c172177b96c2da7f157f52fdc70e7406"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NavRelayState.java",
+      "bytes": 2391,
+      "sha256": "cfcd15c8cf429703428a4f59db0fa17c1373218dffb2d12bc97ae8ba2da0288c"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/NavSession.java",
+      "bytes": 1636,
+      "sha256": "a55a34e8e693d85637f12232bab33383930dcf0c70e930107d468e4988ca8985"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/ProbeUpload.java",
+      "bytes": 4334,
+      "sha256": "579e26ddfbbb8d314521be17ea1a52aa94c1af9179e1d76c42a0310e4104710f"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/Protocol.java",
+      "bytes": 5399,
+      "sha256": "4efba105f7b578c5e0b92695d522ba311f09dac578a1ca447ec272bf6a289b40"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/RamDiagnosticRecord.java",
+      "bytes": 2036,
+      "sha256": "33d37ea384ab0b16bbc37766496e47086f2f132ab6ebcc34dc850053de3e4f22"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/RamFtpRead.java",
+      "bytes": 879,
+      "sha256": "380bf9d0ee384e96ee181b70984218c742e8fcd37cac965fcc6e570f62e51301"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/ReadOnlyFtp.java",
+      "bytes": 10979,
+      "sha256": "5578e99484c85766bbdfd22aeb64017138fea3e1a33e306a7a3de19bb013bd15"
+    },
+    {
+      "path": "g2_companion/src/local/halliday/g2lab/UsbFlagTest.java",
+      "bytes": 15799,
+      "sha256": "f728f13fa7f82439664ed778f9afa90d5e6a1b62a334b25142424d24bbd7a858"
+    },
+    {
+      "path": "g2_companion/tests/AccountClientTest.java",
+      "bytes": 3817,
+      "sha256": "1a7c1c814ae70f46cc4217a5d7c03a8de2c27e069c22f8efa12dc7b5446d91dd"
+    },
+    {
+      "path": "g2_companion/tests/ConsoleCheckTest.java",
+      "bytes": 2277,
+      "sha256": "689b2db1d57368d8722b8d3ec564d9535ef2e97a951b3766098f38f98228c489"
+    },
+    {
+      "path": "g2_companion/tests/DiagnosticReplyTest.java",
+      "bytes": 2287,
+      "sha256": "aec973eb9d6f47b73ccd1abcfff94c61ddb5c0691e114d5c330059638ff734f8"
+    },
+    {
+      "path": "g2_companion/tests/DisposableFtpTestTest.java",
+      "bytes": 10919,
+      "sha256": "4d23a7b5ad82acd1793e4602b838d19e916e19bbeeccfe43abc7d3599b17fa67"
+    },
+    {
+      "path": "g2_companion/tests/NativeAppTest.java",
+      "bytes": 7099,
+      "sha256": "eb04f7332dc3c7ae41803500ff65e6a4287a58f975be5cc188feae1c0b9f5478"
+    },
+    {
+      "path": "g2_companion/tests/NativeNavigationTest.java",
+      "bytes": 3564,
+      "sha256": "53449fde8edb367c837a544e4cb67b28c9be87e58fc95161c44c11b8f5713016"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/bluetooth/BluetoothGatt.java",
+      "bytes": 376,
+      "sha256": "ab8f03ca157ff476084d0421dcafdff8d0fa76eb3f95cdbe76d5423c56084d11"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/bluetooth/BluetoothGattCallback.java",
+      "bytes": 570,
+      "sha256": "d4458e203ca199fed6a63d1796f9f5c036d2b438e54145c1345b8171ae2de729"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/bluetooth/BluetoothGattCharacteristic.java",
+      "bytes": 424,
+      "sha256": "4e88acb7231dcb1e59e93cc3980c39901c3cc5ee40c9517abc4d67876010aaba"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/bluetooth/BluetoothGattDescriptor.java",
+      "bytes": 73,
+      "sha256": "2ba2984387bc53188258058d1fd283b6025be7c4d8c3fec768d0f4dd7c1ab8ff"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/bluetooth/BluetoothProfile.java",
+      "bytes": 107,
+      "sha256": "509f37dceb75f8c75fef43dc302a9cf12f8d95b00b5461658e565af9cd54eb21"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/bluetooth/BluetoothStatusCodes.java",
+      "bytes": 104,
+      "sha256": "d8c0fa564746046f4c89ecc29bf772fd2e0073f77eeabca08dc7b7361dbafc3c"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/os/Handler.java",
+      "bytes": 1216,
+      "sha256": "7b772ec84375bf114213d3c4c3082aa2a106bc00e9e8dd2ec9ee2b8ef3f5b7de"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/os/Looper.java",
+      "bytes": 145,
+      "sha256": "ff10a0f58e31b304db5a0aa491c92a718e539738e3053e1eeee8ae73f676e890"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/os/SystemClock.java",
+      "bytes": 112,
+      "sha256": "3b0401a2fbe8b9216f437a542f65c731373e373a60b4e238a0bc5dc3657d8fd5"
+    },
+    {
+      "path": "g2_companion/tests/nav_android_stubs/android/util/Log.java",
+      "bytes": 210,
+      "sha256": "7424bf2b210373f366626626d9ef9be3bff3ce468bd0263f97d7d49a52ea01a9"
+    },
+    {
+      "path": "g2_companion/tests/NavigationTest.java",
+      "bytes": 5436,
+      "sha256": "0a122da8b567f8f9db202fc896308a265275d45a06d2a3b12722f2ee9a94b8b0"
+    },
+    {
+      "path": "g2_companion/tests/NavTransportTest.java",
+      "bytes": 6569,
+      "sha256": "ae02e0b496dad3a712f6a59dc42e760bb36e0105ba8f56711fabdaa410032630"
+    },
+    {
+      "path": "g2_companion/tests/ProbeUploadTest.java",
+      "bytes": 3332,
+      "sha256": "c6f0a505ff338d61f9164fe1812affcd8a55b19fd2edb0755f36cd1a2a138cd1"
+    },
+    {
+      "path": "g2_companion/tests/ProtocolTest.java",
+      "bytes": 4236,
+      "sha256": "5bd333fbda6adb8f198080fb3898f533659a118556ab8c453df8ff2aee350781"
+    },
+    {
+      "path": "g2_companion/tests/PublicBuildTest.java",
+      "bytes": 665,
+      "sha256": "e01a70c1643f664cf52c3df7092036857e58b4b54eae47e1b7c311af6c4c0e80"
+    },
+    {
+      "path": "g2_companion/tests/RamDiagnosticRecordTest.java",
+      "bytes": 4652,
+      "sha256": "37811523b881b07fa82c88fd551c1e096f39ddcde5d8fa215cc28e608a61172d"
+    },
+    {
+      "path": "g2_companion/tests/ReadOnlyFtpTest.java",
+      "bytes": 13321,
+      "sha256": "16b8d597b68113903cbe50bceba598be77425b508393b68bd3668371c13abd7c"
+    },
+    {
+      "path": "g2_native_probe/build.py",
+      "bytes": 921,
+      "sha256": "f93dd77f71201ecf097a7b64f7427770aa4645f50f8d9dedb811c1e3cb167a5a"
+    },
+    {
+      "path": "g2_native_probe/g2_probe.o",
+      "bytes": 792,
+      "sha256": "f5a48c0e947699041422636d911ac9e79258563fc5aed394b0196b6b79e5234f"
+    },
+    {
+      "path": "g2_native_probe/probe.S",
+      "bytes": 951,
+      "sha256": "304acea8d1d3e21517efbcca5997da629fcd22b102698c4481fba6597abf08d4"
+    },
+    {
+      "path": "halliday_fetcher/__init__.py",
+      "bytes": 107,
+      "sha256": "b31548717ea9bbb49348f9c8b3afd99aa3c0d438fcab63edc31eaf42a499e957"
+    },
+    {
+      "path": "halliday_fetcher/app.py",
+      "bytes": 36138,
+      "sha256": "346aa251dd45a42e715273f2669faf831e4d6935886548658277b516270a46e7"
+    },
+    {
+      "path": "halliday_fetcher/core.py",
+      "bytes": 29635,
+      "sha256": "f23f280b4cb09127320e352189c40f9919978351005751d7af42cc2caf52e7b7"
+    },
+    {
+      "path": "halliday_fetcher/g2.py",
+      "bytes": 21791,
+      "sha256": "347fe93c3c6a575aaef9631c9e35872593090e516dcb6fb7ef67a5625e347c83"
+    },
+    {
+      "path": "halliday_fetcher/g2_ui.py",
+      "bytes": 13027,
+      "sha256": "613a6149fbec7c4cf95de820f353985e04a159194955c84cba898d6c689444d9"
+    },
+    {
+      "path": "native/build.py",
+      "bytes": 2422,
+      "sha256": "20c318a78bba7f6106933dc26b3279eb5311ed2b61a515e05189f72e4a54408f"
+    },
+    {
+      "path": "native/mindylab/layout.ld",
+      "bytes": 137,
+      "sha256": "8a36d51aaa5ebdc1bf53b75d1afcd153d9fc01bfac5a6fc6c82339d685644158"
+    },
+    {
+      "path": "native/mindylab/mindylab.c",
+      "bytes": 21704,
+      "sha256": "aca1501f20966265ce5afad60a2e82c03c52f8fe9c9b39342f75c74b1ab55044"
+    },
+    {
+      "path": "native/mindylab/mindylab.o",
+      "bytes": 9004,
+      "sha256": "918ff848b72dc604fd191ec25e885b77bd3269b0df54bba5cf0f8d4f8184a67c"
+    },
+    {
+      "path": "native/navigation/layout.ld",
+      "bytes": 137,
+      "sha256": "8a36d51aaa5ebdc1bf53b75d1afcd153d9fc01bfac5a6fc6c82339d685644158"
+    },
+    {
+      "path": "native/navigation/mindylab.c",
+      "bytes": 29310,
+      "sha256": "68fe6062f153713ebcce0220690d76ce28957f6fe15894849c608379837fa751"
+    },
+    {
+      "path": "native/navigation/mindylab.o",
+      "bytes": 13084,
+      "sha256": "9511f124148a87e2d1a9ea5b878acc9c45f16f54ceef16aaded6d86bc18d02f3"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1247,
+      "sha256": "d3b0eec67e92901e9abb46d80f364bad627df36aae2446e5985ff0b6907006e3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4391,
+      "sha256": "45944ba280847cb383721661325a36c148b715ccb6269c3bf29bb41a41a8bf24"
+    },
+    {
+      "path": "releases/G2-Display-Lab-0.18-public.apk",
+      "bytes": 102860,
+      "sha256": "4f5a7d9402af9c07378c7e73dc9517eeb2bcf5fcbda1e3672f608a37a6a61528"
+    },
+    {
+      "path": "releases/README.md",
+      "bytes": 783,
+      "sha256": "a78d6552c2e55d6e299e9e93497ef63c7b8ef5d5b7db6f7b534b27b1c7312bd2"
+    },
+    {
+      "path": "releases/SHA256SUMS.txt",
+      "bytes": 497,
+      "sha256": "0e334b50400bb617770611b0f299fb0904c7556120fe81a8a04ef95736018ff6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 21,
+      "sha256": "64fb8d2f36a783c358e1d75e183fe7581c719034fd76a14bdf12fcd57ecc3863"
+    },
+    {
+      "path": "run_app.py",
+      "bytes": 78,
+      "sha256": "ecd6f301e5db2d5cb93ec91609c7a984a5a5e5922df8a81f2135bd0b3109af1b"
+    },
+    {
+      "path": "start.cmd",
+      "bytes": 227,
+      "sha256": "bb09d9e84e2a262ba236b0814237baf23e56af1e5933a8a97dc3194345cffd81"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 8881,
+      "sha256": "327c0a4fa038bec346c16a1a0cf37bc9bb0c3cd52188c3086525c9b662f63287"
+    },
+    {
+      "path": "tests/test_g2.py",
+      "bytes": 15611,
+      "sha256": "97cc66044b9799a03ca9ac505eb5ba38605cdbc119dffc9e4658991fbedfc31b"
+    },
+    {
+      "path": "tools/audit_public_tree.py",
+      "bytes": 3378,
+      "sha256": "f0c925aa2dd0f71b3445c6c21bb9133d227f837136a0339752a033fcef246a6f"
+    },
+    {
+      "path": "tools/prepare_startup_patch.py",
+      "bytes": 2390,
+      "sha256": "e5d032ecb5d679e5d61f976435d1f45e63df716eabf5179caf36704e68591aa0"
+    },
+    {
+      "path": "tools/verify_firmware.py",
+      "bytes": 881,
+      "sha256": "549c0ade265796c0e8eb7431bc11877bac0c173561072a802878fe9d3fa59c4e"
+    }
+  ]
+}

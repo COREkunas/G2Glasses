@@ -1,0 +1,59 @@
+{
+  "version": "1.1.1",
+  "versionCode": 2122,
+  "bytes": 7204026,
+  "sha256": "9cb9d3f093c379bea22b8433fd6f029fd794372e26e04fc40a4369519e6d2874",
+  "kind": "Official component OTA; NOT a factory recovery image",
+  "contents": [
+    {
+      "name": "best1700_watch.bin",
+      "bytes": 1709028,
+      "sha256": "5661aa53a85a7c5d9f858cf9e5e0143bb9e4aa76b51300dddcb10a2a601f2dbe"
+    },
+    {
+      "name": "nuttx_ap.bin",
+      "bytes": 6091372,
+      "sha256": "5258a4f736c96d14dc3b912d3acf2f0021a72d8c10da55e116a13ef1ac318a22"
+    },
+    {
+      "name": "nuttx_apc1.bin",
+      "bytes": 2986292,
+      "sha256": "0cca26aa107713299d740acc17a91fa19f140a96f974c7324810fa9597181b84"
+    },
+    {
+      "name": "nuttx_bth.bin",
+      "bytes": 1630288,
+      "sha256": "7a74a922249429521650f28e00cab65da98378de8e164637dc44881c59e54e3b"
+    },
+    {
+      "name": "ota.sh",
+      "bytes": 1613,
+      "sha256": "61567748c7ce82eeb7761b6d1d516f316d343eca42cd8648f70fb62f3529f6c8"
+    },
+    {
+      "name": "pil_algo_up_dll.dll",
+      "bytes": 182464,
+      "sha256": "cac8479ed69742f2db30633962bb0db7cc325f781970a66bfa08ae654fe6ab85"
+    },
+    {
+      "name": "smf.json",
+      "bytes": 21400,
+      "sha256": "af0b6fedee6e4a244cf369ecb3ca3a2b7e475462afe551b92596d0abcf481891"
+    },
+    {
+      "name": "META-INF/CERT.SF",
+      "bytes": 602,
+      "sha256": "1705520e34ba0e9562e37be60f3dc6055e1f0d969719b84b3225c479add70ad0"
+    },
+    {
+      "name": "META-INF/CERT.RSA",
+      "bytes": 1380,
+      "sha256": "3ca348ae9db6103a9fdef85cdc2f1e3a6fdb746b65c34eb01f9c361e06076cb4"
+    },
+    {
+      "name": "META-INF/MANIFEST.MF",
+      "bytes": 486,
+      "sha256": "b85a38306686a979ada22b7b12a3ca924bc057d983810e0c48898e26ce06638a"
+    }
+  ]
+}
