@@ -7,10 +7,16 @@ This repository is built from an explicit allowlist in a separate public directo
 - Account email/password, access or refresh tokens, account bindings and Bluetooth bond keys.
 - Real device names, serials, MAC addresses, Wi-Fi session credentials and signed download URLs.
 - Per-device NOR/NAND dumps, configuration/factory/calibration partitions, backup manifests and original firmware sectors used by the live writer.
-- Raw logs, packet captures, phone application data, research sessions, screenshots, private photographs, personal route/meeting/audio data.
+- Raw logs, packet captures, phone application data, research sessions, original screenshots/photographs, personal route/meeting/audio data. The explicitly approved sanitized derivatives described below are the exception.
 - APK/private signing keys, local SDK/tool installations, absolute private workspace paths and old per-device test runners.
 
 The USB write workflow's private hash constants are replaced with explicit unavailable placeholders and its public execution path refuses before network access. Synthetic protocol fixtures are generated from declared test values. Public-key material and shared client protocol constants in source are not the owner's credentials. Vendor firmware necessarily contains vendor build strings and its public signing certificate; they are distinct from owner data.
+
+## Approved README images
+
+Two unboxing photos and two MINDYLAB video-frame crops were approved by the owner for public display. The selected unboxing views contain no visible shipping labels, serial numbers, account information or faces. The MINDYLAB crops omit the phone status bar, navigation hint, Gallery controls, thumbnail strip and unrelated surroundings.
+
+Processing was local and deterministic, with no AI retouching. New RGB files were encoded without EXIF/GPS, capture timestamps, camera/phone identifiers, XMP, IPTC, comments or embedded thumbnails. JPEG format headers remain; the PNG files contain only image header, pixel data and end chunks. The source filenames, source paths, source hashes and originals stay outside this repository. See the [media audit](images/media-audit.json).
 
 ## Runtime behavior
 

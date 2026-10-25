@@ -26,3 +26,7 @@ All checks below were run on the isolated, sanitized public snapshot. No glasses
 The APK in this release has a new research signing certificate and the public USB gate. It was not installed or hardware-retested in this publication pass. Earlier hardware results apply to the specific original research revisions described in the story, not every feature of the current snapshot.
 
 Checksums for distributed binaries are in `releases/SHA256SUMS.txt`. The publication inventory records only public relative paths, sizes and hashes. No test output containing local absolute paths is included.
+
+## README image update
+
+Four owner-approved images were visually reviewed before publication. Both MINDYLAB PNGs match their source crops pixel-for-pixel. The original four files retain their original hashes. All derivatives were encoded from fresh RGB pixels; decoded metadata and raw JPEG/PNG containers confirm that no EXIF/GPS, XMP, IPTC, comments or embedded thumbnails were carried over. The Gallery/status/navigation UI is outside the screenshot crops. No AI retouching was used. See [the media audit](images/media-audit.json).

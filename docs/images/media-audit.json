@@ -1,0 +1,65 @@
+{
+  "processing": "Local crops/orientation, photo downsampling, fresh RGB encoding; no AI retouching.",
+  "excluded": "EXIF, GPS, timestamps, camera/phone identifiers, XMP, IPTC, comments and embedded thumbnails.",
+  "originalFilesPublished": false,
+  "images": [
+    {
+      "file": "g2-unboxing.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "sha256": "bd16b1c9a421c7ad8bbaa66029973a05ee491c22fb2ea749524d3b48afd2fe5c",
+      "metadataCheck": {
+        "applicationMarkers": [
+          "0xe0"
+        ],
+        "commentPresent": false
+      }
+    },
+    {
+      "file": "g2-glasses.jpg",
+      "size": [
+        1600,
+        1200
+      ],
+      "sha256": "3d9184ad2a40724258289782ac41aa965de8bf7d9cbd0c79395dc6a8a3bf047f",
+      "metadataCheck": {
+        "applicationMarkers": [
+          "0xe0"
+        ],
+        "commentPresent": false
+      }
+    },
+    {
+      "file": "mindylab-input-1.png",
+      "size": [
+        810,
+        810
+      ],
+      "sha256": "a68c26bca5e73c194805eb6afbd8c2f8aed8b7814854a430b933bf8e99be8067",
+      "metadataCheck": {
+        "chunks": [
+          "IHDR",
+          "IDAT",
+          "IEND"
+        ]
+      }
+    },
+    {
+      "file": "mindylab-input-2.png",
+      "size": [
+        810,
+        810
+      ],
+      "sha256": "d59225d7f77933bad9ef9f1a9e5888cbcb05744491c472dd8b27de852d4ba577",
+      "metadataCheck": {
+        "chunks": [
+          "IHDR",
+          "IDAT",
+          "IEND"
+        ]
+      }
+    }
+  ]
+}

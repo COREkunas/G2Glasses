@@ -4,14 +4,16 @@ Check a clean release/clone, not a private research workspace. Pattern checks
 cannot prove that arbitrary binary data is free of every private value.
 """
 from pathlib import Path
-import hashlib,io,json,re,zipfile
+import hashlib,io,json,re,struct,zipfile
 ROOT=Path(__file__).resolve().parents[1]
 SKIP_DIRS={'.git','build','build-temp','__pycache__','.venv','fixtures'}
 SKIP_FILES={'elf-inspection.txt','build.json','G2-Display-Lab.apk','G2-Display-Lab.apk.idsig'}
 ALLOWED_BINARIES={
     'firmware/halliday-g2-1.1.1-official-ota.zip',
     'native/mindylab/mindylab.o','native/navigation/mindylab.o',
-    'g2_native_probe/g2_probe.o','releases/G2-Display-Lab-0.18-public.apk'}
+    'g2_native_probe/g2_probe.o','releases/G2-Display-Lab-0.18-public.apk',
+    'docs/images/g2-unboxing.jpg','docs/images/g2-glasses.jpg',
+    'docs/images/mindylab-input-1.png','docs/images/mindylab-input-2.png'}
 PATTERNS={
     'private key':rb'-----BEGIN (?:RSA |EC |OPENSSH |ENCRYPTED )?PRIVATE KEY-----',
     'GitHub credential':rb'(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,})',
@@ -40,6 +42,32 @@ def scan_bytes(data,label,findings):
                 continue
         if matches:findings.append({'file':label,'category':category})
 
+def clean_image_container(data,suffix):
+    """Allow pixel data/encoding headers only; reject image metadata containers."""
+    try:
+        if suffix=='.png':
+            if data[:8]!=b'\x89PNG\r\n\x1a\n':return False
+            at=8;chunks=[]
+            while at<len(data):
+                n=struct.unpack('>I',data[at:at+4])[0];kind=data[at+4:at+8]
+                if kind not in {b'IHDR',b'IDAT',b'IEND'}:return False
+                chunks.append(kind);at+=12+n
+            return at==len(data) and chunks[0]==b'IHDR' and chunks[-1]==b'IEND'
+        if data[:2]!=b'\xff\xd8':return False
+        at=2
+        while at<len(data):
+            if data[at]!=255:return False
+            while data[at]==255:at+=1
+            code=data[at];at+=1
+            if code==0xda:return True
+            n=struct.unpack('>H',data[at:at+2])[0]
+            if n<2 or at+n>len(data):return False
+            payload=data[at+2:at+n];at+=n
+            if 0xe0<=code<=0xef or code==0xfe:
+                if code!=0xe0 or len(payload)!=14 or not payload.startswith(b'JFIF\0') or payload[-2:]!=b'\0\0':return False
+        return False
+    except (IndexError,struct.error):return False
+
 def audit():
     findings=[];inventory=[]
     for p,rel in public_files():
@@ -48,6 +76,8 @@ def audit():
         if p.suffix.lower() in {'.bin','.o','.apk','.zip','.jpg','.png','.pdf'} and rel not in ALLOWED_BINARIES:
             findings.append({'file':rel,'category':'binary not explicitly allowed'})
         scan_bytes(data,rel,findings)
+        if p.suffix in {'.jpg','.png'} and not clean_image_container(data,p.suffix):
+            findings.append({'file':rel,'category':'unexpected image metadata/container'})
         if p.suffix in {'.apk','.zip'}:
             with zipfile.ZipFile(io.BytesIO(data)) as z:
                 for info in z.infolist():

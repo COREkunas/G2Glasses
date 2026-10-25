@@ -6,6 +6,22 @@ We bought G2 for its potential, then ran into the limits of the available apps a
 
 Read the [short project story](docs/STORY.md) for the journey, including the failures and the limits of what we have proved.
 
+> **Use at your own risk — no warranties or guarantees.** These are experimental tools and research materials. You take full responsibility for using or modifying them, including any device damage, bricking, data loss or service disruption. We do not promise safety, compatibility, successful flashing or recovery. See the [full disclaimer](DISCLAIMER.md), subject to applicable law.
+
+## From unboxing to our own native app
+
+| Opening the G2 package | The glasses after unboxing |
+|---|---|
+| ![Opened Halliday G2 packaging with its protective case](docs/images/g2-unboxing.jpg) | ![Halliday G2 glasses and case after unboxing](docs/images/g2-glasses.jpg) |
+
+**MINDYLAB on the actual G2 display:** two frames from the owner's recorded demo show the input counter changing from **1** to **2**. This is our native screen, not text inserted into the stock dashboard note card.
+
+| MINDYLAB — input count 1 | MINDYLAB — input count 2 |
+|---|---|
+| ![Real G2 display showing MINDYLAB and INPUTS 1](docs/images/mindylab-input-1.png) | ![Real G2 display showing MINDYLAB and INPUTS 2](docs/images/mindylab-input-2.png) |
+
+These are genuine owner-supplied photos and video-frame screenshots, cropped locally with no AI retouching. Phone UI and unrelated thumbnails were removed; identifying metadata was stripped before publication. The originals remain private. [Image processing and privacy details](docs/images/README.md).
+
 ## What works — and what does not
 
 | Capability | Evidence as of 25 October 2026 |
@@ -49,4 +65,4 @@ For Android, use the [public research APK](releases/G2-Display-Lab-0.18-public.a
 
 The goal is a useful, private platform: our own apps, navigation, local meeting transcription models and voice controls. These are goals, not a claim that all are implemented. The present account sign-in still contacts Halliday, and stock services retain their own behavior. Full privacy and complete replacement firmware require more work.
 
-This repository contains a curated public snapshot. Account data, binding keys, device identifiers, personal media, raw research logs and device-specific backups are excluded. Vendor firmware remains vendor material; see [rights and provenance](NOTICE.md). No affiliation with or endorsement by Halliday is claimed.
+This repository contains a curated public snapshot. Only the explicitly approved, sanitized photos above are shared; account data, binding keys, device identifiers, original personal media, raw research logs and device-specific backups are excluded. Vendor firmware remains vendor material; see [rights and provenance](NOTICE.md). No affiliation with or endorsement by Halliday is claimed.

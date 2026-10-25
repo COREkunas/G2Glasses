@@ -3,3 +3,5 @@
 *.apk -text
 *.o -text
 *.bin -text
+*.jpg -text
+*.png -text

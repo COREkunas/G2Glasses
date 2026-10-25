@@ -3,13 +3,18 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 65,
-      "sha256": "9986a24d061a6999d1b0ac99361cc1ad45f1e0f967d019d139ce4e0aa332680d"
+      "bytes": 89,
+      "sha256": "c5de251e60d4f40732f7ee84ca829b111ae4b07027d82cdf919d961f38688038"
     },
     {
       "path": ".gitignore",
       "bytes": 407,
       "sha256": "fdc0844e3718823ce71b6953fccfb0ca99ef95b807cef4e217c345cfc4c4ae4d"
+    },
+    {
+      "path": "DISCLAIMER.md",
+      "bytes": 1951,
+      "sha256": "04dd42dcfa806e06147786efa8cd34f436aa289e7c3a239ca731b1d9f801e312"
     },
     {
       "path": "docs/ANDROID.md",
@@ -22,14 +27,44 @@
       "sha256": "a7e0de9b80783b5106ee462ae70df9c7d6ebba75d5593b8abacfa4f2df83dcea"
     },
     {
+      "path": "docs/images/g2-glasses.jpg",
+      "bytes": 358821,
+      "sha256": "3d9184ad2a40724258289782ac41aa965de8bf7d9cbd0c79395dc6a8a3bf047f"
+    },
+    {
+      "path": "docs/images/g2-unboxing.jpg",
+      "bytes": 260832,
+      "sha256": "bd16b1c9a421c7ad8bbaa66029973a05ee491c22fb2ea749524d3b48afd2fe5c"
+    },
+    {
+      "path": "docs/images/media-audit.json",
+      "bytes": 1484,
+      "sha256": "a6b7998a98be7075e370e5d9e6066611c9e84dbbd31ad5934add7fcb5fa2d8e7"
+    },
+    {
+      "path": "docs/images/mindylab-input-1.png",
+      "bytes": 711389,
+      "sha256": "a68c26bca5e73c194805eb6afbd8c2f8aed8b7814854a430b933bf8e99be8067"
+    },
+    {
+      "path": "docs/images/mindylab-input-2.png",
+      "bytes": 721219,
+      "sha256": "d59225d7f77933bad9ef9f1a9e5888cbcb05744491c472dd8b27de852d4ba577"
+    },
+    {
+      "path": "docs/images/README.md",
+      "bytes": 1743,
+      "sha256": "6b3a5e873985a8e74bd5feaf631a02122cec43025ef021a244dcf0b37aa184fd"
+    },
+    {
       "path": "docs/NATIVE-APPS.md",
       "bytes": 5146,
       "sha256": "7206f8c9b873e6cf9de498c1ed76810d17c588f64b86bf410fd66a2d073ac400"
     },
     {
       "path": "docs/PRIVACY.md",
-      "bytes": 2178,
-      "sha256": "a37f7e8389af6343f6aa9f3b24354955688ed13ee8d2ba07714033e4bdcb2690"
+      "bytes": 3061,
+      "sha256": "fab01aa8cef8d5adbca8010e6d84329e4d51f4df01028ce9c22be5b46446cea6"
     },
     {
       "path": "docs/RESEARCH.md",
@@ -43,8 +78,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 2231,
-      "sha256": "5adfca03778552b377bc8485d3bdc54089d7fe1409a771e09071535eb58980a2"
+      "bytes": 2767,
+      "sha256": "924e3f179353224d1904ee9db8fd7843b7042ce28a82c3fc9792460b339b87eb"
     },
     {
       "path": "firmware/halliday-g2-1.1.1-official-ota.zip",
@@ -383,13 +418,13 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 1247,
-      "sha256": "d3b0eec67e92901e9abb46d80f364bad627df36aae2446e5985ff0b6907006e3"
+      "bytes": 1714,
+      "sha256": "3f07b328b2e7f8101adb248b3b78b4cdb0768c04d63975c861da727af001f94c"
     },
     {
       "path": "README.md",
-      "bytes": 4391,
-      "sha256": "45944ba280847cb383721661325a36c148b715ccb6269c3bf29bb41a41a8bf24"
+      "bytes": 5889,
+      "sha256": "73eb59a94c8eaa960aeff00e74437ab75eb60ae47029ac7d0297ac3e681f44ee"
     },
     {
       "path": "releases/G2-Display-Lab-0.18-public.apk",
@@ -403,8 +438,8 @@
     },
     {
       "path": "releases/SHA256SUMS.txt",
-      "bytes": 497,
-      "sha256": "0e334b50400bb617770611b0f299fb0904c7556120fe81a8a04ef95736018ff6"
+      "bytes": 882,
+      "sha256": "3d872d346dc93489cd777a432478c0123918d0c4d0d97866167d90360feaebc9"
     },
     {
       "path": "requirements.txt",
@@ -433,8 +468,8 @@
     },
     {
       "path": "tools/audit_public_tree.py",
-      "bytes": 3378,
-      "sha256": "f0c925aa2dd0f71b3445c6c21bb9133d227f837136a0339752a033fcef246a6f"
+      "bytes": 4873,
+      "sha256": "379726a6cb1e3a3cbc41b83dd3006e4d65b10cb3fc244ca789d0053b988018a8"
     },
     {
       "path": "tools/prepare_startup_patch.py",

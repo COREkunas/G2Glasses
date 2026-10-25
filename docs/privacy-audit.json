@@ -5,12 +5,16 @@
   "privateDumpsPublished": false,
   "signingKeysPublished": false,
   "textAndArchivePayloadsScanned": true,
+  "approvedSanitizedImages": 4,
+  "imageMetadataContainersChecked": true,
   "manualReview": [
     "Explicit source/documentation/binary allowlist; no private workspace history.",
     "Five private-key header matches in the official AP are NUL-terminated parser delimiter strings, not PEM key bodies.",
     "Only synthetic fixture account fields; runtime session keys are not included.",
     "Vendor OTA contains generic components, not owner factory/calibration/settings dumps.",
-    "Public build disables the private-baseline USB writer before connecting."
+    "Public build disables the private-baseline USB writer before connecting.",
+    "Owner-approved image derivatives visually inspected; original images remain private.",
+    "Phone status/navigation and Gallery UI cropped out; no AI retouching; EXIF/GPS/XMP/IPTC/comments/thumbnails removed."
   ],
   "limits": "Pattern scanning and manual review are not a mathematical guarantee about arbitrary binaries."
 }
