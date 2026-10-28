@@ -8,6 +8,16 @@ Read the [short project story](docs/STORY.md) for the journey, including the fai
 
 > **Use at your own risk — no warranties or guarantees.** These are experimental tools and research materials. You take full responsibility for using or modifying them, including any device damage, bricking, data loss or service disruption. We do not promise safety, compatibility, successful flashing or recovery. See the [full disclaimer](DISCLAIMER.md), subject to applicable law.
 
+## English unboxing and review
+
+**4 minutes 50 seconds · 1080p · English narration and subtitles.** The review follows our own unboxing photos and MINDYLAB screenshots through firmware download, authenticated Wi-Fi/FTP access, backups, USB activation and native apps on G2.
+
+[![Open the English Halliday G2 review: from unboxing to our own code](docs/video/preview.png)](https://github.com/COREkunas/G2Glasses/blob/main/docs/video/Halliday-G2-English-Review.mp4)
+
+**[Open video](docs/video/Halliday-G2-English-Review.mp4)** · **[Download MP4 (17.9 MiB)](https://github.com/COREkunas/G2Glasses/raw/refs/heads/main/docs/video/Halliday-G2-English-Review.mp4)** · [English subtitles](docs/video/Subtitles_EN.srt) · [Chapters and video details](docs/video/README.md)
+
+Research snapshot: **25 October 2026**. Real owner photos and display screenshots, with synthetic narration. The video distinguishes the demonstrated MINDYLAB app and small startup patch from complete custom firmware and independent recovery, which remain unproved. The [project disclaimer](DISCLAIMER.md) applies.
+
 ## From unboxing to our own native app
 
 | Opening the G2 package | The glasses after unboxing |
@@ -65,4 +75,4 @@ For Android, use the [public research APK](releases/G2-Display-Lab-0.18-public.a
 
 The goal is a useful, private platform: our own apps, navigation, local meeting transcription models and voice controls. These are goals, not a claim that all are implemented. The present account sign-in still contacts Halliday, and stock services retain their own behavior. Full privacy and complete replacement firmware require more work.
 
-This repository contains a curated public snapshot. Only the explicitly approved, sanitized photos above are shared; account data, binding keys, device identifiers, original personal media, raw research logs and device-specific backups are excluded. Vendor firmware remains vendor material; see [rights and provenance](NOTICE.md). No affiliation with or endorsement by Halliday is claimed.
+This repository contains a curated public snapshot. Only explicitly approved, sanitized photos and the finished review video are shared; account data, binding keys, device identifiers, original personal media, raw research logs and device-specific backups are excluded. Vendor firmware remains vendor material; see [rights and provenance](NOTICE.md). No affiliation with or endorsement by Halliday is claimed.

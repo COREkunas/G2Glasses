@@ -11,3 +11,5 @@ Research was carried out on an owner-authorized unit. Instructions are evidence 
 The [use-at-your-own-risk disclaimer](DISCLAIMER.md) applies to all project materials, subject to applicable law. No warranties, successful outcome, recovery capability or ongoing support are promised.
 
 Selected owner-supplied unboxing photos and MINDYLAB video-frame screenshots are published with the owner's permission after local cropping and metadata removal. The original files remain private. Their inclusion does not change the licensing scope stated above.
+
+The finished English review, its preview and subtitles are also published at the owner's request. It combines selected owner imagery, public source excerpts, diagrams, synthetic narration and the project's saved intro/outro music. This publication grants no additional rights to third-party material and does not alter the licensing scope above.

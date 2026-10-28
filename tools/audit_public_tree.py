@@ -13,7 +13,8 @@ ALLOWED_BINARIES={
     'native/mindylab/mindylab.o','native/navigation/mindylab.o',
     'g2_native_probe/g2_probe.o','releases/G2-Display-Lab-0.18-public.apk',
     'docs/images/g2-unboxing.jpg','docs/images/g2-glasses.jpg',
-    'docs/images/mindylab-input-1.png','docs/images/mindylab-input-2.png'}
+    'docs/images/mindylab-input-1.png','docs/images/mindylab-input-2.png',
+    'docs/video/preview.png','docs/video/Halliday-G2-English-Review.mp4'}
 PATTERNS={
     'private key':rb'-----BEGIN (?:RSA |EC |OPENSSH |ENCRYPTED )?PRIVATE KEY-----',
     'GitHub credential':rb'(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,})',
@@ -73,7 +74,7 @@ def audit():
     for p,rel in public_files():
         data=p.read_bytes()
         if p.suffix.lower() in DENIED_EXT:findings.append({'file':rel,'category':'excluded file type'})
-        if p.suffix.lower() in {'.bin','.o','.apk','.zip','.jpg','.png','.pdf'} and rel not in ALLOWED_BINARIES:
+        if p.suffix.lower() in {'.bin','.o','.apk','.zip','.jpg','.png','.pdf','.mp4'} and rel not in ALLOWED_BINARIES:
             findings.append({'file':rel,'category':'binary not explicitly allowed'})
         scan_bytes(data,rel,findings)
         if p.suffix in {'.jpg','.png'} and not clean_image_container(data,p.suffix):

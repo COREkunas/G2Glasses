@@ -1,0 +1,43 @@
+{
+  "publicationDate": "2026-10-28",
+  "researchSnapshotDate": "2026-10-25",
+  "durationSeconds": 290.233333,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "language": "English",
+    "narration": "synthetic"
+  },
+  "subtitles": {
+    "language": "English",
+    "cues": 93,
+    "burnedIn": true,
+    "optionalTrackDefault": false
+  },
+  "files": [
+    {
+      "file": "Halliday-G2-English-Review.mp4",
+      "bytes": 18743419,
+      "sha256": "aff63ead691f3195d25ad56284599f55c2009e64056f5a96743b39385f896cfd"
+    },
+    {
+      "file": "preview.png",
+      "bytes": 74690,
+      "sha256": "f99669c6ceb5987ac0f844671c54a5168e673a6cc5de69d88d6f5e9434a8b670"
+    },
+    {
+      "file": "Subtitles_EN.srt",
+      "bytes": 8611,
+      "sha256": "fa932a6f3c7749b49a5a6a8a5a795e6428611efd46b9addefdb2cbb9099aadab"
+    }
+  ],
+  "metadataReview": "Public title and research date plus standard codec/container tags; no GPS, original capture timestamps or private paths.",
+  "sourcePrivacy": "Original personal media, private production manifests, account data and device dumps are excluded.",
+  "verification": "Exact verified export; complete MP4 decode passed during delivery checks. Visual and automated speech checks; no human listening pass."
+}

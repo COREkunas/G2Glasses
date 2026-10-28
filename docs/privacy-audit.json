@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-28",
   "unresolvedPatternFindings": 0,
   "privateBackupFingerprintsFound": 0,
   "privateDumpsPublished": false,
@@ -7,6 +7,8 @@
   "textAndArchivePayloadsScanned": true,
   "approvedSanitizedImages": 4,
   "imageMetadataContainersChecked": true,
+  "approvedReviewVideos": 1,
+  "approvedVideoPreviews": 1,
   "manualReview": [
     "Explicit source/documentation/binary allowlist; no private workspace history.",
     "Five private-key header matches in the official AP are NUL-terminated parser delimiter strings, not PEM key bodies.",
@@ -14,7 +16,8 @@
     "Vendor OTA contains generic components, not owner factory/calibration/settings dumps.",
     "Public build disables the private-baseline USB writer before connecting.",
     "Owner-approved image derivatives visually inspected; original images remain private.",
-    "Phone status/navigation and Gallery UI cropped out; no AI retouching; EXIF/GPS/XMP/IPTC/comments/thumbnails removed."
+    "Phone status/navigation and Gallery UI cropped out; no AI retouching; EXIF/GPS/XMP/IPTC/comments/thumbnails removed.",
+    "Owner-approved finished English review matches the verified export; only public title/date and codec metadata; private production manifests excluded."
   ],
   "limits": "Pattern scanning and manual review are not a mathematical guarantee about arbitrary binaries."
 }

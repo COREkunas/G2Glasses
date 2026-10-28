@@ -1,0 +1,372 @@
+1
+00:00:04,500 --> 00:00:08,297
+Halliday G2. This story started with unboxing a new pair of smart glasses.
+
+2
+00:00:08,297 --> 00:00:10,690
+It ended with our own app running inside them.
+
+3
+00:00:10,870 --> 00:00:13,903
+Between those two points came frustration with limited features,
+
+4
+00:00:13,903 --> 00:00:16,272
+firmware analysis, and even a homemade data cable.
+
+5
+00:00:16,620 --> 00:00:19,371
+The first impression is tidy: a plain shipping box,
+
+6
+00:00:19,371 --> 00:00:22,660
+separate product packaging inside, and then the glasses case.
+
+7
+00:00:22,860 --> 00:00:26,824
+The kit includes instructions, small accessories, and a magnetic charging cable.
+
+8
+00:00:26,824 --> 00:00:28,954
+The unboxing feels like a finished product.
+
+9
+00:00:29,310 --> 00:00:32,355
+At first glance, the black frames look like ordinary glasses.
+
+10
+00:00:32,355 --> 00:00:35,849
+Thicker arms, controls, and the optics hint at the electronics inside.
+
+11
+00:00:36,010 --> 00:00:38,377
+The manufacturer offers notifications, calls,
+
+12
+00:00:38,377 --> 00:00:42,060
+music, translation, notes, and a meeting assistant. There is no camera.
+
+13
+00:00:42,060 --> 00:00:44,954
+That alone does not mean all data is processed locally.
+
+14
+00:00:45,260 --> 00:00:48,011
+The previous generation used ordinary optical lenses.
+
+15
+00:00:48,011 --> 00:00:50,814
+A separate projection module directed the image toward
+
+16
+00:00:50,814 --> 00:00:53,514
+your eye, in the upper corner of your field of view.
+
+17
+00:00:53,514 --> 00:00:56,576
+To us, those glasses looked more discreet from the outside.
+
+18
+00:00:56,710 --> 00:00:59,427
+The new generation uses waveguides inside the lenses.
+
+19
+00:00:59,427 --> 00:01:03,118
+Visible optical projection areas give away that these are smart glasses.
+
+20
+00:01:03,118 --> 00:01:05,424
+We can see that difference in our own photos.
+
+21
+00:01:05,500 --> 00:01:08,309
+But the new image looks clearer to us, the projection area
+
+22
+00:01:08,309 --> 00:01:11,119
+feels larger, and viewing is more comfortable than before.
+
+23
+00:01:11,119 --> 00:01:13,686
+This is our experience, not a laboratory measurement.
+
+24
+00:01:14,040 --> 00:01:17,560
+We wanted more: our own navigation, speech recognition models of our
+
+25
+00:01:17,560 --> 00:01:20,873
+choice, voice commands, and the freedom to build apps ourselves.
+
+26
+00:01:21,060 --> 00:01:22,956
+This is where the disappointment began.
+
+27
+00:01:22,956 --> 00:01:25,727
+In the manufacturer documentation we checked, we found no
+
+28
+00:01:25,727 --> 00:01:28,742
+public development kit or official way to install our own app.
+
+29
+00:01:28,742 --> 00:01:31,610
+We were left with the features the manufacturer had chosen.
+
+30
+00:01:31,950 --> 00:01:35,836
+Official updates do exist. But updating the glasses and independently extending
+
+31
+00:01:35,836 --> 00:01:38,028
+their capabilities are two different things.
+
+32
+00:01:38,200 --> 00:01:40,373
+So we decided to investigate our own device.
+
+33
+00:01:40,373 --> 00:01:42,646
+First, we needed to understand the firmware it
+
+34
+00:01:42,646 --> 00:01:45,017
+receives and what that firmware actually allows.
+
+35
+00:01:45,360 --> 00:01:48,129
+We built a desktop tool that signs in with the owner account,
+
+36
+00:01:48,129 --> 00:01:51,534
+downloads the update offered for the glasses, and saves it on the computer.
+
+37
+00:01:51,740 --> 00:01:54,940
+That let us analyze system code, commands, and startup scripts.
+
+38
+00:01:54,940 --> 00:01:57,836
+The downloaded update differed from the version installed
+
+39
+00:01:57,836 --> 00:02:00,426
+on the glasses, so we kept their analysis separate.
+
+40
+00:02:00,730 --> 00:02:03,883
+The analysis led to commands authenticated with the owner account.
+
+41
+00:02:03,883 --> 00:02:06,415
+These could enable Wi-Fi and a file transfer service.
+
+42
+00:02:06,600 --> 00:02:09,178
+FTP became our route into the glasses file system.
+
+43
+00:02:09,178 --> 00:02:13,612
+Through our own phone app, we could read files and save parts of the installed system.
+
+44
+00:02:13,990 --> 00:02:16,604
+Before making changes, we saved the entire 16 MiB
+
+45
+00:02:16,604 --> 00:02:19,379
+main flash memory and important configuration areas.
+
+46
+00:02:19,379 --> 00:02:21,673
+We compared repeated reads with each other.
+
+47
+00:02:21,850 --> 00:02:23,770
+But a backup does not guarantee recovery.
+
+48
+00:02:23,770 --> 00:02:26,673
+If the system stopped booting, we would also need a connection
+
+49
+00:02:26,673 --> 00:02:29,529
+and a way to write the backup without relying on that system.
+
+50
+00:02:29,900 --> 00:02:33,393
+Next, the four contacts on the magnetic connector caught our attention.
+
+51
+00:02:33,393 --> 00:02:35,017
+Our supplied cable carried power.
+
+52
+00:02:35,017 --> 00:02:36,493
+For data, we had to modify it.
+
+53
+00:02:36,700 --> 00:02:38,125
+Wires alone were not enough.
+
+54
+00:02:38,125 --> 00:02:41,484
+In the installed firmware, we found a disabled USB debugging flag.
+
+55
+00:02:41,484 --> 00:02:45,047
+Making a data cable and enabling that setting were two separate tasks.
+
+56
+00:02:45,410 --> 00:02:48,835
+After making backups, changing the specific setting, and restarting,
+
+57
+00:02:48,835 --> 00:02:52,360
+the computer finally recognized the glasses as a composite USB device.
+
+58
+00:02:52,530 --> 00:02:54,280
+We also gained command-line access.
+
+59
+00:02:54,280 --> 00:02:57,580
+That let us inspect the running system and test our own executable
+
+60
+00:02:57,580 --> 00:03:00,580
+modules without first replacing the entire operating system.
+
+61
+00:03:00,940 --> 00:03:02,665
+The first clear win was MINDYLAB.
+
+62
+00:03:02,665 --> 00:03:05,226
+This was our own program, with a separate screen,
+
+63
+00:03:05,226 --> 00:03:08,571
+custom drawing, and a counter responding to taps on the glasses.
+
+64
+00:03:08,650 --> 00:03:12,336
+Sending text to the built-in notes card had only been an intermediate step.
+
+65
+00:03:12,336 --> 00:03:15,040
+Now our code was running inside the glasses themselves.
+
+66
+00:03:15,390 --> 00:03:18,342
+Later, we saved the module on the glasses and added automatic
+
+67
+00:03:18,342 --> 00:03:21,391
+loading through a small startup patch to the original firmware.
+
+68
+00:03:21,500 --> 00:03:24,122
+After a restart, the phone app could start and stop our
+
+69
+00:03:24,122 --> 00:03:26,601
+screen without connecting the glasses to a computer.
+
+70
+00:03:26,601 --> 00:03:29,604
+Taps work, and stopping the app brings back the normal display.
+
+71
+00:03:29,980 --> 00:03:32,270
+This proves that an additional app is possible.
+
+72
+00:03:32,270 --> 00:03:34,755
+For now, though, we have a prototype for a specific
+
+73
+00:03:34,755 --> 00:03:36,898
+firmware version, not a universal app store.
+
+74
+00:03:37,040 --> 00:03:41,482
+Navigation, local meeting transcription, and our choice of models remain future stages.
+
+75
+00:03:41,482 --> 00:03:43,524
+The current companion app still uses the
+
+76
+00:03:43,524 --> 00:03:46,179
+manufacturer account to authenticate the connection.
+
+77
+00:03:46,500 --> 00:03:49,345
+We have already made a small patch to the original system.
+
+78
+00:03:49,345 --> 00:03:51,749
+But a complete custom firmware build and reliable
+
+79
+00:03:51,749 --> 00:03:54,644
+restoration after a failed boot have not yet been achieved.
+
+80
+00:03:54,820 --> 00:03:59,298
+We are still investigating independent recovery, the flash writing path, and boot checks.
+
+81
+00:03:59,298 --> 00:04:02,569
+Those are needed to give bigger changes a more reliable way back.
+
+82
+00:04:02,730 --> 00:04:07,077
+Our verdict: the hardware has promise, but the freedom to customize it was
+disappointing.
+
+83
+00:04:07,077 --> 00:04:09,519
+A closed platform pushed us to find our own route.
+
+84
+00:04:09,710 --> 00:04:13,020
+That route has already led to an extra app inside the glasses.
+
+85
+00:04:13,020 --> 00:04:16,918
+Next, we want more privacy, local processing, and real freedom to create.
+
+86
+00:04:16,918 --> 00:04:20,388
+These are goals, not a claim that everything is already finished.
+
+87
+00:04:20,740 --> 00:04:23,050
+Our research findings, tools, app source code,
+
+88
+00:04:23,050 --> 00:04:26,313
+and documentation are available in the project GitHub repository.
+
+89
+00:04:26,313 --> 00:04:29,125
+The full link is on screen and in the video description.
+
+90
+00:04:29,300 --> 00:04:31,942
+These tools are experimental and provided as is.
+
+91
+00:04:31,942 --> 00:04:35,795
+You accept full responsibility and use them entirely at your own risk.
+
+92
+00:04:35,795 --> 00:04:40,473
+We provide no guarantees of operation, safety, compatibility, or successful recovery.
+
+93
+00:04:40,473 --> 00:04:42,730
+Device damage and data loss are possible.

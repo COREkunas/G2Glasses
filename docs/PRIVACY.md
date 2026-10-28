@@ -18,6 +18,12 @@ Two unboxing photos and two MINDYLAB video-frame crops were approved by the owne
 
 Processing was local and deterministic, with no AI retouching. New RGB files were encoded without EXIF/GPS, capture timestamps, camera/phone identifiers, XMP, IPTC, comments or embedded thumbnails. JPEG format headers remain; the PNG files contain only image header, pixel data and end chunks. The source filenames, source paths, source hashes and originals stay outside this repository. See the [media audit](images/media-audit.json).
 
+## Approved English review video
+
+The owner also approved publication of the finished [English review](video/README.md), its title-card preview and English subtitles. It uses selected owner photos, cropped MINDYLAB screenshots, redacted tool imagery, diagrams and public source excerpts. It contains no account credentials, device backup contents or original Gallery/status UI. The original media and private production manifests remain local.
+
+The published MP4 is the exact verified export. Its metadata contains the public title, research date and standard codec/container information; no GPS, original capture timestamps or private filesystem paths are included. The preview PNG contains only image header, pixel data and end chunks. Public media hashes and format details are recorded in [the video audit](video/media-audit.json).
+
 ## Runtime behavior
 
 The downloader and companion still contact Halliday for account/update information. Current firmware remains stock-based and may run its own network services. This project therefore does not claim complete cloud independence or full privacy yet.

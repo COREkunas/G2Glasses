@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-28",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 89,
-      "sha256": "c5de251e60d4f40732f7ee84ca829b111ae4b07027d82cdf919d961f38688038"
+      "bytes": 101,
+      "sha256": "3bad10709a5742a6106840ad7de3aa1fb79079913f16e585c097c7358e0c385d"
     },
     {
       "path": ".gitignore",
@@ -63,8 +63,8 @@
     },
     {
       "path": "docs/PRIVACY.md",
-      "bytes": 3061,
-      "sha256": "fab01aa8cef8d5adbca8010e6d84329e4d51f4df01028ce9c22be5b46446cea6"
+      "bytes": 3898,
+      "sha256": "c9982bbb1922a1fe0b0095547b71612c50a812d93f8bbcc9df6c48b0d82807d6"
     },
     {
       "path": "docs/RESEARCH.md",
@@ -78,8 +78,33 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 2767,
-      "sha256": "924e3f179353224d1904ee9db8fd7843b7042ce28a82c3fc9792460b339b87eb"
+      "bytes": 3418,
+      "sha256": "404fedd48d161d161c5ff74ab7e165829e771dbe30d75dcabc55d3d436dce465"
+    },
+    {
+      "path": "docs/video/Halliday-G2-English-Review.mp4",
+      "bytes": 18743419,
+      "sha256": "aff63ead691f3195d25ad56284599f55c2009e64056f5a96743b39385f896cfd"
+    },
+    {
+      "path": "docs/video/media-audit.json",
+      "bytes": 1342,
+      "sha256": "fe1e07574e69d1011c100efeffb3836fd590c68ab7d91e4a28651c7dd527e04d"
+    },
+    {
+      "path": "docs/video/preview.png",
+      "bytes": 74690,
+      "sha256": "f99669c6ceb5987ac0f844671c54a5168e673a6cc5de69d88d6f5e9434a8b670"
+    },
+    {
+      "path": "docs/video/README.md",
+      "bytes": 2289,
+      "sha256": "f55bde846ae4396d6156873dbe72df5c0c51eb6e15db42192e1ba3ee947aa18c"
+    },
+    {
+      "path": "docs/video/Subtitles_EN.srt",
+      "bytes": 8611,
+      "sha256": "fa932a6f3c7749b49a5a6a8a5a795e6428611efd46b9addefdb2cbb9099aadab"
     },
     {
       "path": "firmware/halliday-g2-1.1.1-official-ota.zip",
@@ -418,13 +443,13 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 1714,
-      "sha256": "3f07b328b2e7f8101adb248b3b78b4cdb0768c04d63975c861da727af001f94c"
+      "bytes": 2061,
+      "sha256": "afae9363752e0926652006c3482235d5b30c64b1d2bfecde75edc4d130b28d6c"
     },
     {
       "path": "README.md",
-      "bytes": 5889,
-      "sha256": "73eb59a94c8eaa960aeff00e74437ab75eb60ae47029ac7d0297ac3e681f44ee"
+      "bytes": 6993,
+      "sha256": "c87d3e0fad5bbda4ad1ae7e0077bef4cf0b94b1b41d69e13978b41e5d2701f3a"
     },
     {
       "path": "releases/G2-Display-Lab-0.18-public.apk",
@@ -438,8 +463,8 @@
     },
     {
       "path": "releases/SHA256SUMS.txt",
-      "bytes": 882,
-      "sha256": "3d872d346dc93489cd777a432478c0123918d0c4d0d97866167d90360feaebc9"
+      "bytes": 1079,
+      "sha256": "cf21808b6c7bd599145fc4a81c3330b1472812c0c2ef6e0b3fbe83c749e84a2d"
     },
     {
       "path": "requirements.txt",
@@ -468,8 +493,8 @@
     },
     {
       "path": "tools/audit_public_tree.py",
-      "bytes": 4873,
-      "sha256": "379726a6cb1e3a3cbc41b83dd3006e4d65b10cb3fc244ca789d0053b988018a8"
+      "bytes": 4954,
+      "sha256": "f33dbc8d497a2d7214d0e0309ba743d75548dcec248f44475f60f443d7df7816"
     },
     {
       "path": "tools/prepare_startup_patch.py",
